@@ -17,7 +17,6 @@ namespace BethanyPieShopHRM.Server.Pages
             InitializeCountries();
             InitializeJobCategories();
             InitializeEmployees();
-            throw new Exception("Something went wrong here");
             return base.OnInitializedAsync();
         }
 
